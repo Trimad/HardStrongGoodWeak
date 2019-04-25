@@ -19,7 +19,6 @@ void settings() {
 
 Clock clock;
 StaticCurve sc;
-Elbow elbow;
 PFont f;
 
 void setup() {
@@ -35,7 +34,7 @@ void setup() {
 
   clock = new Clock(new PVector(width*0.25, height>>1), height);
   sc = new StaticCurve(new PVector(width*0.75, height>>1), height);
-  elbow = new Elbow();
+
 }
 
 PImage updatedMask(float howHigh) {
